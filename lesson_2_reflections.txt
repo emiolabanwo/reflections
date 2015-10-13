@@ -1,3 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 -A .git file is created in the current directory that you're in, making that directory a Git repository that can be tracked. 
 if this isnt done, git can not track the changes to a file or files
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+-The staging area is a buffer that tracks intended additions to a commit of a repository. a working directory is the folder in which 
+this takes place..?
+
+How can you use the staging area to make sure you have one commit per logical change?
+- a logical change may involve changing one or more files. Using the staging area, one can assure that the commit reflects all releveant
+changes to a single logic
