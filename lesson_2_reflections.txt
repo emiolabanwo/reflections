@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+-A .git file is created in the current directory that you're in, making that directory a Git repository that can be tracked. 
+if this isnt done, git can not track the changes to a file or files
